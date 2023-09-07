@@ -1,1 +1,6 @@
 /* Place CSS styles here */
+
+body {
+    color: rgb(8, 119, 210);
+    background-color: bisque;
+}
