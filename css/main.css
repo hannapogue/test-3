@@ -3,4 +3,38 @@
 body {
     color: rgb(8, 119, 210);
     background-color: bisque;
+    font-family: 'Cormorant', serif;
+}
+/* media query for phones */
+@media (max-width: 480px) {
+    body {
+      background-color: teal;
+    }
+  }
+  
+  /* media query for tablet */
+  @media (min-width: 481px) and (max-width: 767px) {
+    body {
+      background-color: maroon;
+    }
+  }
+  
+  /* media query for desktop */
+  @media (min-width: 768px) {
+    body {
+      background-color: peachpuff;
+    }
+  }
+
+h1 {
+    font-family: 'Jost', sans-serif;
+}
+img {
+    width: 700px;
+}
+
+.piggy-paragrph {
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
 }
